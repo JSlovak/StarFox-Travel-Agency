@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <title>Star Fox Travel Agency</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Source+Sans+Pro" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
+
+
   <header id= "header">
-    <img src="" alt="">
+    <img src="" alt="logo">
     <h1>StarFox Intergalactic Travel Agency</h1>
   </header>
 
@@ -16,41 +20,56 @@
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Interstellar Travel</a>
-  <div>
+  </div>
 
   <div id= "mobile-nav">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>
+      <div class= "drop-nav" id= "menu">
+        <div id= "logo-set">
+          <img id ="logo" src="assets/logo.svg" alt="logo"></img>
+          <p id= "star-fox"> <b>Star</b>Fox</p>
+        </div>
+        <img id ="menu-icon" src="assets/menu_icon.svg" alt="menu-icon"></img>
+      </div>
+      <div class= "drop-nav">Home</div>
+      <div class= "drop-nav">About</div>
+      <div class= "drop-nav">Services</div>
+      <div class= "drop-nav">Interstellar Travel</div>
+    </div>
   </div>
 
   <div id= "main-sell">
-    <img src="public/assets/ship.png" alt="space-ship">
-    <p></p>
-    <button>Find Out More</button>
+    <img id= "space-ship" src="assets/ship.png" alt="space-ship">
+    <h1 id="value-prop">We will take you to the Moon and Back! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae leo est. Maecenas sit amet nisi tellus. Donec a consequat mi, ut sodales eros!</h1>
+    <button id="more">Find Out More</button>
   </div>
 
   <div>
     <div class= "package">
       <p>To the Moon</p>
-      <p>$30,000</p>
+      <div>
+        <p class= "price">$30,000</p>
+        <div class= "line"></div>
+      </div>
       <p>Covers travel fare, lodgings, and meals for 3 months in space.</p>
     </div>
 
     <div class= "package">
         <p>Just Around Earth</p>
-        <p>$10,000</p>
-        <p>Covers travel fare, lodgings, and meals for 2 weeks in space.</p>
+        <div>
+          <p class= "price">$30,000</p>
+          <div class= "line"></div>
+        </div>
+        <p>Covers travel fare, lodgings, and me als for 2 weeks in space.</p>
     </div>
   </div>
 
-  <div id= "mobile-to-mid-more-deals">
-    <p>More Deals</p>
-    <button>Test</button>
+  <div id= "mobile-more-deals">
+    <p id= "more-deals" >More Deals</p>
+    <button id= "arrow" src= "assets/arrow.svg"></button>
   </div>
 
-  <div class = package id= "large-more-deals">
+  <div id= "more-deals">
     <div>
       <p>Just to Jupiter</p>
       <p>$26,000</p>
@@ -63,7 +82,7 @@
 
     <div>
       <p>More Deals</p>
-      <button>Arrow Button</button>
+      <svg id= "arrow-two" src= "public/assets/arrow.svg"></svg>
     <div>
   </div>
 
